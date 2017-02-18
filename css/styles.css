@@ -8,6 +8,10 @@ body {
   color: hsl(200, 15%, 20%);
 }
 
+h1, h2, h3 {
+  font-family: Jaldi, Helvetica, Arial, sans-serif;
+}
+
 .main {
   align-self: center;
 }
