@@ -24,3 +24,7 @@ footer {
 footer a {
   color: inherit;
 }
+
+.text-center {
+  text-align: center !important;
+}
