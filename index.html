@@ -1,45 +1,7 @@
 <!doctype>
 <head>
   <title>Omnibear</title>
-  <style>
-    body {
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      color: hsl(200, 15%, 20%);
-      padding: 5em 0;
-      margin: 0;
-    }
-    .main > h1 {
-      font-weight: bold;
-      text-align: center;
-    }
-
-    footer {
-      margin-top: calc(100vh - 18em);
-      text-align: center;
-      font-size: 0.8em;
-      color: hsl(200, 15%, 60%);
-    }
-    footer a {
-      color: inherit;
-    }
-
-    @supports (display: grid) {
-      body {
-        display: grid;
-        min-height: 100vh;
-        grid-template-rows: auto 3em;
-        padding: 0;
-      }
-
-      .main {
-        align-self: center;
-      }
-
-      footer {
-        margin-top: 0;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="main x-h-app">
