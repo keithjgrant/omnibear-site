@@ -1,0 +1,5 @@
+baseUrl = "https://omnibear.com"
+languageCode = "en-us"
+paginate = 20
+theme = "omnibear"
+title = "Omnibear"

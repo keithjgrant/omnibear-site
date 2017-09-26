@@ -1,0 +1,26 @@
+{
+  "name": "omnibear.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "hugo server",
+    "start:drafts": "hugo server -D",
+    "build": "hugo -d docs",
+    "postbuild": "cp -R static docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithjgrant/omnibear.git"
+  },
+  "author": "Keith J. Grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keithjgrant/omnibear/issues"
+  },
+  "homepage": "https://github.com/keithjgrant/omnibear#readme",
+  "devDependencies": {}
+}
