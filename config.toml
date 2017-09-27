@@ -4,8 +4,6 @@ paginate = 20
 theme = "omnibear"
 title = "Omnibear"
 
-googleAnalytics = "UA-107145318-1"
-
 [params]
   intro = "A micropub browser extension"
   description = "Repost, like, or reply to anything online. Omnibear is an integrated Micropub client built into your browser."
