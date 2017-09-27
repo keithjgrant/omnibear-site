@@ -12,7 +12,7 @@ googleAnalytics = "UA-37381912-3"
   dateFormat = '02 January 2006'
 
 [params.extra]
-  copyright = "built by [Keith J. Grant](https://keithjgrant.com)"
+  copyright = "Built by [Keith J. Grant](https://keithjgrant.com) | View [source on Github](https://github.com/keithjgrant/omnibear)"
 
 [[menu.main]]
   name = "Install"
