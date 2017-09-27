@@ -118,7 +118,7 @@ div.content {
   margin-bottom: 20px;
 }
 .intro {
-  font-family: 'Lato Slab', serif;
+  font-family: 'Lato', serif;
   font-weight: 200;
   color: #777;
 }
@@ -134,7 +134,7 @@ h3.intro {
   list-style: none;
 }
 .list-entry {
-  font-family: 'Lato Slab', serif;
+  font-family: 'Lato', serif;
   font-size: 25px;
   font-weight: 400;
 
