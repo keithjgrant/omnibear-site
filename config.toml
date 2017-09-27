@@ -3,3 +3,15 @@ languageCode = "en-us"
 paginate = 20
 theme = "omnibear"
 title = "Omnibear"
+
+[params]
+  description = "A micropub browser extension"
+  dateFormat = '02 January 2006'
+
+[params.extra]
+  copyright = "built by [Keith J. Grant](https://keithjgrant.com)"
+
+[[main.menu]]
+  name = "Releases"
+  weight = 100
+  url = "/releases"

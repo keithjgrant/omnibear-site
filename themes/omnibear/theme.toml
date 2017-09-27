@@ -1,10 +1,10 @@
-name = "Goa"
+name = "Omnibear"
 license = "MIT"
 licenselink = "https://github.com/shenoybr/hugo-goa/blob/master/LICENSE.md"
-description = "Simple Minimalist Hugo Theme"
-homepage = "https://github.com/shenoybr/hugo-goa"
-tags = ["Roboto", "Lato", "Roboto Slab", "bootstrap", "font awesome", "minimal", "clean"]
-features = ["blog", "pages", "minimal", "responsive", "404", "icons", "disqus", "anlaytics"]
+description = "Modified version of the Goa Theme"
+homepage = "https://omnibear.com"
+tags = ["minimal", "clean"]
+features = ["blog", "pages", "minimal", "responsive", "404", "icons", "anlaytics"]
 min_version = 0.16
 
 [author]
