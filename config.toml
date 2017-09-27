@@ -5,13 +5,24 @@ theme = "omnibear"
 title = "Omnibear"
 
 [params]
-  description = "A micropub browser extension"
+  intro = "A micropub browser extension"
+  description = "Repost, like, or reply to anything online. Omnibear is an integrated Micropub client built into your browser."
   dateFormat = '02 January 2006'
 
 [params.extra]
   copyright = "built by [Keith J. Grant](https://keithjgrant.com)"
 
-[[main.menu]]
-  name = "Releases"
+[[menu.main]]
+  name = "Install"
   weight = 100
+  url = "/install"
+
+[[menu.main]]
+  name = "Features"
+  weight = 200
+  url = "/features"
+
+[[menu.main]]
+  name = "Changelog"
+  weight = 300
   url = "/releases"
