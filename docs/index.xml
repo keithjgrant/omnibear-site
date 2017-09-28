@@ -6,8 +6,28 @@
     <description>Recent content on Omnibear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 27 Sep 2017 15:27:40 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 28 Sep 2017 13:33:20 -0400</lastBuildDate>
     <atom:link href="https://omnibear.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Omnibear version 0.6.0</title>
+      <link>https://omnibear.com/releases/0.6.0/</link>
+      <pubDate>Thu, 28 Sep 2017 13:33:20 -0400</pubDate>
+      
+      <guid>https://omnibear.com/releases/0.6.0/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Verified working in Chromium and Vivaldi&lt;/li&gt;
+&lt;li&gt;Character count is shown while writing a post&lt;/li&gt;
+&lt;li&gt;Displays the url after a post is created (non-Chrome browsers only)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://news.indieweb.org/en&#34; class=&#34;u-syndication&#34;&gt;
+  Also posted on IndieNews
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Features</title>
