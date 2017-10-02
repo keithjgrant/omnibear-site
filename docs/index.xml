@@ -62,20 +62,6 @@
     </item>
     
     <item>
-      <title>Install</title>
-      <link>https://omnibear.com/install/</link>
-      <pubDate>Wed, 27 Sep 2017 15:27:40 -0400</pubDate>
-      
-      <guid>https://omnibear.com/install/</guid>
-      <description>&lt;p&gt;Omnibear is currently only available for Chrome. Get it on the &lt;a href=&#34;https://chrome.google.com/webstore/detail/omnibear/cjieakdeocmiimmphkfhdfbihhncoocn&#34;&gt;Chrome Web Store&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Firefox is supported but not yet available in the Add-on store. If you are comfortable doing a developer install in Firefox, you can get the &lt;a href=&#34;https://github.com/keithjgrant/omnibear&#34;&gt;source code on Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I am working on support in other browsers as well.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Omnibear version 0.5.3</title>
       <link>https://omnibear.com/releases/0.5.3/</link>
       <pubDate>Tue, 26 Sep 2017 15:27:40 -0400</pubDate>

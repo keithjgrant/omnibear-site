@@ -194,6 +194,23 @@ section.meta {
 .social a {
   color: #526d7a;
 }
+
+.install {
+  padding: 2em 1em;
+  border: 1px solid #966;
+  border-radius: 0.5em;
+}
+.install a {
+  display: inline-block;
+  vertical-align: top;
+}
+.install a + a {
+  margin-left: 2em;
+}
+.install > a > img {
+  height: 150px;
+}
+
 .title {
   font-family: Jaldi, sans-serif;
   font-weight: 400;
