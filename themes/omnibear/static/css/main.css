@@ -11,9 +11,8 @@ a,
 a:hover,
 a:visited,
 a:link {
-  text-decoration: none;
-
   color: #526d7a;
+  text-decoration: underline;
 }
 body {
   font-family: 'Lato', sans-serif;
