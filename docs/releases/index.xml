@@ -6,8 +6,40 @@
     <description>Recent content in Releases on Omnibear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 09 Nov 2017 15:22:10 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jan 2018 12:12:57 -0500</lastBuildDate>
     <atom:link href="https://omnibear.com/releases/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Omnibear version 1.0.0</title>
+      <link>https://omnibear.com/releases/1.0.0/</link>
+      <pubDate>Wed, 31 Jan 2018 12:12:57 -0500</pubDate>
+      
+      <guid>https://omnibear.com/releases/1.0.0/</guid>
+      <description>&lt;p&gt;Available now in &lt;a href=&#34;https://chrome.google.com/webstore/detail/omnibear/cjieakdeocmiimmphkfhdfbihhncoocn&#34;&gt;Chrome&lt;/a&gt; and &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/omnibear/&#34;&gt;Firefox&lt;/a&gt;, or &lt;a href=&#34;https://omnibear.com/download/omnibear-1.0.0.zip&#34;&gt;download it directly&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Updated user interface&lt;/li&gt;
+&lt;li&gt;Automatically saves drafts when the window closes&lt;/li&gt;
+&lt;li&gt;Customizable user settings:
+
+&lt;ul&gt;
+&lt;li&gt;Automatically generate slug&lt;/li&gt;
+&lt;li&gt;Always open in &amp;ldquo;reply to&amp;rdquo; mode&lt;/li&gt;
+&lt;li&gt;Customizable Reacji &amp;amp; quick replies&lt;/li&gt;
+&lt;li&gt;Customize micropub fieldnames (legacy support)&lt;/li&gt;
+&lt;li&gt;Manually set micropub endpoint and token&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Select syndication targets&lt;/li&gt;
+&lt;li&gt;Improved error messaging&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://news.indieweb.org/en&#34; class=&#34;u-syndication&#34;&gt;
+  Also posted on IndieNews
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Omnibear version 0.6.1</title>
