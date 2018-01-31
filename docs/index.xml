@@ -29,7 +29,7 @@
 &lt;li&gt;Customize micropub fieldnames (legacy support)&lt;/li&gt;
 &lt;li&gt;Manually set micropub endpoint and token&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Select syndication targets&lt;/li&gt;
+&lt;li&gt;Select syndication targets (NOTE: you may need to log out and back in after the update takes effect)&lt;/li&gt;
 &lt;li&gt;Improved error messaging&lt;/li&gt;
 &lt;/ul&gt;
 
