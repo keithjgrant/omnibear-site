@@ -2,12 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Omnibear</title>
-    <link>https://omnibear.com/index.xml</link>
+    <link>https://omnibear.com/</link>
     <description>Recent content on Omnibear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 31 Jan 2018 12:12:57 -0500</lastBuildDate>
-    <atom:link href="https://omnibear.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 May 2018 11:53:57 -0400</lastBuildDate>
+    
+	<atom:link href="https://omnibear.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Omnibear version 1.1.0</title>
+      <link>https://omnibear.com/releases/1.1.0/</link>
+      <pubDate>Fri, 25 May 2018 11:53:57 -0400</pubDate>
+      
+      <guid>https://omnibear.com/releases/1.1.0/</guid>
+      <description>Available now in Chrome and Firefox, or download it directly.
+ added logging option to settings to enable better support/debugging fix reply-to posts posting as regular notes no longer require &amp;ldquo;me&amp;rdquo; parameter in authorization response fix errors when fetching syndication endpoints   Also posted on IndieNews</description>
+    </item>
     
     <item>
       <title>Omnibear version 1.0.0</title>
@@ -15,30 +27,8 @@
       <pubDate>Wed, 31 Jan 2018 12:12:57 -0500</pubDate>
       
       <guid>https://omnibear.com/releases/1.0.0/</guid>
-      <description>&lt;p&gt;Available now in &lt;a href=&#34;https://chrome.google.com/webstore/detail/omnibear/cjieakdeocmiimmphkfhdfbihhncoocn&#34;&gt;Chrome&lt;/a&gt; and &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/omnibear/&#34;&gt;Firefox&lt;/a&gt;, or &lt;a href=&#34;https://omnibear.com/download/omnibear-1.0.0.zip&#34;&gt;download it directly&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Updated user interface&lt;/li&gt;
-&lt;li&gt;Automatically saves draft&lt;/li&gt;
-&lt;li&gt;Customizable user settings:
-
-&lt;ul&gt;
-&lt;li&gt;Automatically generate slug&lt;/li&gt;
-&lt;li&gt;Always open in &amp;ldquo;reply to&amp;rdquo; mode&lt;/li&gt;
-&lt;li&gt;Customizable Reacji &amp;amp; quick replies&lt;/li&gt;
-&lt;li&gt;Customize micropub fieldnames (legacy support)&lt;/li&gt;
-&lt;li&gt;Manually set micropub endpoint and token&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Select syndication targets (NOTE: you may need to log out and back in after the update takes effect)&lt;/li&gt;
-&lt;li&gt;Improved error messaging&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://news.indieweb.org/en&#34; class=&#34;u-syndication&#34;&gt;
-  Also posted on IndieNews
-&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Available now in Chrome and Firefox, or download it directly.
+ Updated user interface Automatically saves draft Customizable user settings:  Automatically generate slug Always open in &amp;ldquo;reply to&amp;rdquo; mode Customizable Reacji &amp;amp; quick replies Customize micropub fieldnames (legacy support) Manually set micropub endpoint and token  Select syndication targets (NOTE: you may need to log out and back in after the update takes effect) Improved error messaging   Also posted on IndieNews</description>
     </item>
     
     <item>
@@ -47,18 +37,7 @@
       <pubDate>Thu, 09 Nov 2017 15:22:10 -0500</pubDate>
       
       <guid>https://omnibear.com/releases/0.6.1/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Fixed add-on icon in Firefox&lt;/li&gt;
-&lt;li&gt;added &amp;ldquo;reacji&amp;rdquo; support to quickly reply with an emoji&lt;/li&gt;
-&lt;li&gt;improved error messaging&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://news.indieweb.org/en&#34; class=&#34;u-syndication&#34;&gt;
-  Also posted on IndieNews
-&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Fixed add-on icon in Firefox added &amp;ldquo;reacji&amp;rdquo; support to quickly reply with an emoji improved error messaging   Also posted on IndieNews</description>
     </item>
     
     <item>
@@ -67,18 +46,7 @@
       <pubDate>Thu, 28 Sep 2017 13:33:20 -0400</pubDate>
       
       <guid>https://omnibear.com/releases/0.6.0/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Verified working in Chromium and Vivaldi&lt;/li&gt;
-&lt;li&gt;Character count is shown while writing a post&lt;/li&gt;
-&lt;li&gt;Displays the url after a post is created (non-Chrome browsers only)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://news.indieweb.org/en&#34; class=&#34;u-syndication&#34;&gt;
-  Also posted on IndieNews
-&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Verified working in Chromium and Vivaldi Character count is shown while writing a post Displays the url after a post is created (non-Chrome browsers only)   Also posted on IndieNews</description>
     </item>
     
     <item>
@@ -87,30 +55,9 @@
       <pubDate>Wed, 27 Sep 2017 15:27:40 -0400</pubDate>
       
       <guid>https://omnibear.com/features/</guid>
-      <description>
-
-&lt;h2 id=&#34;posting&#34;&gt;Posting&lt;/h2&gt;
-
-&lt;p&gt;Omnibear is a &lt;a href=&#34;http://indieweb.org/micropub&#34;&gt;MicroPub client&lt;/a&gt;, allowing you to publish posts to your website from anywhere on the web. Click on the browser extension icon to open the drafting window. Use this to compose and save your post.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://omnibear.com/images/features-basic.png&#34; alt=&#34;Omnibear popup window open&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;replying&#34;&gt;Replying&lt;/h2&gt;
-
-&lt;p&gt;You can also post a reply to anything on the web. Right-click and select “Reply to entry” to write a reply. This will reply to the current URL.&lt;/p&gt;
-
-&lt;p&gt;If the current page is published with valid &lt;a href=&#34;http://indieweb.org/microformats&#34;&gt;microformats&lt;/a&gt;, you can reply to any “h-entry” on the page. When you right-click an h-entry, it will be highlighted in yellow. Your reply will be posted against the highlighted entry.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://omnibear.com/images/features-reply.jpg&#34; alt=&#34;Highlighted h-entry with the context menu open. Omnibear&#39;s &amp;quot;reply to entry&amp;quot; option is visible in the context menu&#34; /&gt;.&lt;/p&gt;
-
-&lt;p&gt;When replying to an entry, you can also click the “like” or “repost” button to quickly post a like or repost for the current entry.&lt;/p&gt;
-
-&lt;h2 id=&#34;twitter-and-facebook-support&#34;&gt;Twitter and Facebook Support&lt;/h2&gt;
-
-&lt;p&gt;Omnibear supports interaction with Twitter and Facebook. Right-click on a tweet or Facebook post to highlight it and interact with it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://omnibear.com/images/features-twitter.jpg&#34; alt=&#34;A highlighted tweet on twitter.com, with the context menu open. The Omnibear &amp;quot;reply to entry&amp;quot; option is highlighted in the context menu&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Posting Omnibear is a MicroPub client, allowing you to publish posts to your website from anywhere on the web. Click on the browser extension icon to open the drafting window. Use this to compose and save your post.
+Replying You can also post a reply to anything on the web. Right-click and select “Reply to entry” to write a reply. This will reply to the current URL.
+If the current page is published with valid microformats, you can reply to any “h-entry” on the page.</description>
     </item>
     
     <item>
@@ -119,21 +66,9 @@
       <pubDate>Tue, 26 Sep 2017 15:27:40 -0400</pubDate>
       
       <guid>https://omnibear.com/releases/0.5.3/</guid>
-      <description>&lt;p&gt;With this release, Omnibear works in Firefox. Unfortunately, there is still a little bit of cleanup to do in order to get it accepted into the Firefox Add-on store, but if you are comfortable doing a dev install on your own, you can give it a test run.&lt;/p&gt;
-
-&lt;p&gt;Other changes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fixes issues finding and highlighting the &lt;code&gt;h-entry&lt;/code&gt; when right-clicked.&lt;/li&gt;
-&lt;li&gt;Includes some permissions fixes to try to get Omnibear working in other browsers besides Chrome&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://news.indieweb.org/en&#34; class=&#34;u-syndication&#34;&gt;
-  Also posted on IndieNews
-&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>With this release, Omnibear works in Firefox. Unfortunately, there is still a little bit of cleanup to do in order to get it accepted into the Firefox Add-on store, but if you are comfortable doing a dev install on your own, you can give it a test run.
+Other changes:
+ Fixes issues finding and highlighting the h-entry when right-clicked. Includes some permissions fixes to try to get Omnibear working in other browsers besides Chrome   Also posted on IndieNews</description>
     </item>
     
   </channel>
