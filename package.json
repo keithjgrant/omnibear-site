@@ -9,8 +9,7 @@
   "scripts": {
     "start": "hugo server",
     "start:drafts": "hugo server -D",
-    "build": "hugo -d docs",
-    "postbuild": "cp -R static docs"
+    "build": "hugo -d docs"
   },
   "repository": {
     "type": "git",

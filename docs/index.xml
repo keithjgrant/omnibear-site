@@ -29,7 +29,7 @@ Unchecking this box and saving settings will delete existing logs. “Info” an
       
       <guid>https://omnibear.com/releases/1.1.0/</guid>
       <description>Available now in Chrome and Firefox, or download it directly.
- added logging option to settings to enable better support/debugging fix reply-to posts posting as regular notes no longer require &amp;ldquo;me&amp;rdquo; parameter in authorization response fix errors when fetching syndication endpoints   Also posted on IndieNews</description>
+ Added a new logging option to settings to enable better support/debugging fix reply-to posts posting as regular notes no longer require &amp;ldquo;me&amp;rdquo; parameter in authorization response fix errors when fetching syndication endpoints   Also posted on IndieNews</description>
     </item>
     
     <item>
