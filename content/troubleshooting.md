@@ -30,3 +30,5 @@ With logging enabled, a “Logs” option will appear in the footer of the Omnib
 All logs will be displayed in this screen. Some logs contain additional information, indicated by a “+” icon. Click the log entry to expand the pane to display the data.
 
 ![Logging screen](/images/logging-example.png)
+
+Logs are only stored locally on your machine and are not reported to a server.
