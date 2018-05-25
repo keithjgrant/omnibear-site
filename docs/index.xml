@@ -6,10 +6,21 @@
     <description>Recent content on Omnibear</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 25 May 2018 11:53:57 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 25 May 2018 12:25:40 -0400</lastBuildDate>
     
 	<atom:link href="https://omnibear.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://omnibear.com/troubleshooting/</link>
+      <pubDate>Fri, 25 May 2018 12:25:40 -0400</pubDate>
+      
+      <guid>https://omnibear.com/troubleshooting/</guid>
+      <description>It takes a lot of moving parts to get an IndieWeb site working. Omnibear offers logging to help you troubleshoot any issues when authenticating to your site or posting to your micropub endpoint.
+Enable logging Go to the settings page and check the box labeled &amp;ldquo;Record debug logs&amp;rdquo; to enable logging.
+Unchecking this box and saving settings will delete existing logs. “Info” and “warning” logs will not be saved while it is unchecked.</description>
+    </item>
     
     <item>
       <title>Omnibear version 1.1.0</title>

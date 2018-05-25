@@ -8,5 +8,5 @@ features = ["blog", "pages", "minimal", "responsive", "404", "icons", "anlaytics
 min_version = 0.16
 
 [author]
-  name = "Rajesh Shenoy"
-  homepage = "https://github.com/shenoybr"
+  name = "Keith J. Grant"
+  homepage = "https://keithjgrant.com"
