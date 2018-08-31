@@ -14,12 +14,12 @@ googleAnalytics = "UA-37381912-3"
   [params.hero]
     enable = true
     heading = "A micropub browser extension"
-    description = "Repost, like, or reply to anything online. Omnibear is an integrated Micropub client built into your browser."
+    description = "Quickly post notes to your blog. Repost, like, or reply to anything online. Omnibear is an integrated Micropub client built into your browser."
 
   [params.aboutSm]
     enable = true
     title = "Welcome to microblogging, on your own site"
-    description = "Omnibear is a [MicroPub](/getting-started/micropub) client, allowing you to publish posts to your website from anywhere on the web. Join the IndieWeb movement, and send replies to other IndieWeb sites."
+    description = "Omnibear is a [MicroPub](/getting-started/micropub) client, allowing you to publish posts to your website from anywhere on the web. Join the IndieWeb movement, own your own data, and send replies to other IndieWeb sites."
 
   [params.extra]
     copyright = "Built by [Keith J. Grant](https://keithjgrant.com) | View [source on Github](https://github.com/keithjgrant/omnibear)"

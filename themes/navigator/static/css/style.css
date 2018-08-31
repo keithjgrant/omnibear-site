@@ -87,6 +87,10 @@ a:hover {
   color: var(--brand-color);
 }
 
+img {
+  max-width: 100%;
+}
+
 .btn-main,
 .btn-main-sm {
   background-color: hsl(20, 75%, 65%);
@@ -1809,22 +1813,18 @@ a:hover {
 
 .top-footer p {
   font-size: 13px;
-  line-height: 30px;
   color: #bdbdbd;
   font-weight: 300;
   padding-right: 20px;
+  letter-spacing: 1px;
 }
 
-.top-footer li a {
+.top-footer a {
+  color: var(--blue-60);
   font-size: 13px;
-  line-height: 30px;
-  color: #bdbdbd;
-  font-weight: 300;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  transition: color 0.3s;
   font-family: 'Titillium Web', sans-serif;
-  display: block;
+  font-weight: 300;
+  transition: color 0.3s;
 }
 
 .top-footer li a:hover {
@@ -1864,7 +1864,7 @@ a:hover {
 }
 
 .footer-bottom a {
-  color: var(--brand-color);
+  color: var(--blue-60);
 }
 
 .subscribe-form .form-control {
