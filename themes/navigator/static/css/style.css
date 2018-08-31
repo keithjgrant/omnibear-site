@@ -1641,6 +1641,10 @@ img {
   padding: 20px;
 }
 
+.blog-single h2 > a {
+  color: inherit;
+}
+
 .blog-subtitle {
   font-size: 15px;
   padding-bottom: 10px;

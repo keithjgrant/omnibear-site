@@ -7,22 +7,22 @@
 {{ partial "page-title.html" . }}
 
 {{ "<!-- Blog Section Start -->" | safeHTML }}
-<section class="blog section" id="blog">
+<article class="blog section" id="blog">
     <div class="container">
         <div class="row">
             {{ range (.Paginator 6).Pages }}
             {{ "<!-- single blog post -->" | safeHTML }}
-            <article class="col-12 col-md-4">
+            <article class="col-12 col-md-4 h-entry">
                 <div class="post-item">
                     {{ if .Params.image }}<div class="post-thumb">
                         <img class="img-fluid shadow rounded" src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" alt="Generic placeholder image">
                     </div>{{ end }}
                     <div class="post-title">
                         <h3 class="mt-0">
-                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            <a class="p-name u-url" href="{{ .Permalink }}">{{ .Title }}</a>
                         </h3>
                     </div>
-                    <div class="post-content">
+                    <div class="post-content p-summary">
                         <p>{{ .Summary }}</p>
                     </div>
                     <a class="btn btn-main" href="{{ .Permalink }}">Read more</a>
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-</section>
+</article>
 {{ "<!-- Blog Section End -->" | safeHTML }}
 
 {{ partial "footer.html" . }}
