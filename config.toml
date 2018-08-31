@@ -1,30 +1,41 @@
 baseUrl = "https://omnibear.com"
 languageCode = "en-US"
 paginate = 20
-theme = "omnibear"
+theme = "navigator"
 title = "Omnibear"
 
 googleAnalytics = "UA-37381912-3"
 
 [params]
-  intro = "A micropub browser extension"
-  description = "Repost, like, or reply to anything online. Omnibear is an integrated Micropub client built into your browser."
+  logo = "/logo.svg"
+
   dateFormat = '02 January 2006'
 
-[params.extra]
-  copyright = "Built by [Keith J. Grant](https://keithjgrant.com) | View [source on Github](https://github.com/keithjgrant/omnibear)"
+  [params.hero]
+    enable = true
+    heading = "A micropub browser extension"
+    description = "Quickly post notes to your blog. Repost, like, or reply to anything online. Omnibear is an integrated Micropub client built into your browser."
 
-[[menu.main]]
-  name = "Features"
-  weight = 200
-  url = "/features"
+  [params.aboutSm]
+    enable = true
+    title = "Welcome to microblogging, on your own site"
+    description = "Omnibear is a [MicroPub](/getting-started/micropub) client, allowing you to publish posts to your website from anywhere on the web. Join the IndieWeb movement, own your own data, and send replies to other IndieWeb sites."
 
-[[menu.main]]
-  name = "Changelog"
-  weight = 300
-  url = "/releases"
+  [params.extra]
+    copyright = "Built by [Keith J. Grant](https://keithjgrant.com) | View [source on Github](https://github.com/keithjgrant/omnibear)"
 
-[[menu.main]]
-  name = "Troubleshooting"
-  weight = 400
-  url = "/troubleshooting"
+[menu]
+  [[menu.nav]]
+    name = "Features"
+    url = "/features"
+    weight = 20
+
+  [[menu.nav]]
+    name = "Changelog"
+    url = "/releases"
+    weight = 30
+
+  [[menu.nav]]
+    name = "Troubleshooting"
+    url = "/troubleshooting"
+    weight = 40

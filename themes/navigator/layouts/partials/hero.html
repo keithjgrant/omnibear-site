@@ -1,0 +1,35 @@
+{{ if .Site.Params.hero.enable }}
+{{ "<!-- Hero Area -->" | safeHTML }}
+<section class="hero-area">
+    <div class="container">
+        <div class="row row--centered">
+            <div class="col-md-6">
+                <div class="video-player">
+                  <img class="img-fluid rounded" src="/images/screenshots/closeup.png" alt="Omnibear draft window">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="block">
+                    {{ with .Site.Params.hero.heading }}
+                        <h2>{{ . }}</h2>
+                    {{ end }}
+                    {{ with .Site.Params.hero.description }}
+                        <p>{{ . }}</p>
+                    {{ end }}
+                    <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                      <li class="list-inline-item">
+                        Install:
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://chrome.google.com/webstore/detail/omnibear/cjieakdeocmiimmphkfhdfbihhncoocn" class="btn btn-main">Chrome</a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://addons.mozilla.org/en-US/firefox/addon/omnibear/" class="btn btn-main">Firefox</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
