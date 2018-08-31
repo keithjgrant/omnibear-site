@@ -1,0 +1,15 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : /images/stock-friends.jpg
+    imageAlt: Several friends reaching across their laptops to fist bump
+    title : The IndieWeb movement
+    description : >
+      The [IndieWeb](https://indieweb.org/IndieWeb) is a community of individual personal websites, connected by simple standards. It is based on the principles of owning your site, using it as your primary online identity, and owning your data.
+
+  - positionRight : true
+    image : /images/stock-blogging.jpg
+    imageAlt: A women sits on a couch while typing on her laptop
+    title : Microblog from anywhere
+    description : >
+      Microblogging isn’t limited to big centralized social networks; nothing is keeping you from making short posts to your own blog. Omnibear removes friction, making it quick and easy to do. You can copy the posts to Twitter or Facebook, or you friends can subscribe to your RSS feed and get your posts there.

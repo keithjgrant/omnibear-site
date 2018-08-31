@@ -1,0 +1,16 @@
+enable  : true
+item  :
+  - icon  : "svg-pen.html"
+    title : Post Notes
+    description : >
+      Write short notes and post them to your site. Share links to interesting articles or anything else you find online.
+
+  - icon  : "svg-lightning.html"
+    title : Interact Immediately
+    description : >
+      Right-click on any web site to reply without leaving the page. Post a comment (hosted on your own site), like it, or repost it for your subscribers to read.
+
+  - icon  : "svg-twitter.html"
+    title : Interact with Social Media
+    description : >
+      Posts on twitter.com and facebook.com are recognized. Right-click on a post to highlight it and reply to its URL.
