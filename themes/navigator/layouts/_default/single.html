@@ -5,25 +5,20 @@
 {{ partial "navigation.html" . }}
 
 <main class="blog-single section">
-    <div class="container">
-        <div class="row">
-            <article class="col-md-8 mx-auto h-entry">
-                {{ if .Params.image }}<img src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" class="w-100 mb-3" alt="Post-Image">{{ end }}
-                <h2><a class="p-name u-url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                <div class="post-meta mb-5">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <span>at</span>
-                            <time class="dt-published">{{ .Date.Format .Site.Params.dateFormat }}</time>
-                        </li>
-                    </ul>
-                </div>
-                <div class="e-content">
-                  {{ .Content }}
-                </div>
-            </article>
+  <div class="container">
+    <div class="row">
+      <article class="col-md-8 mx-auto h-entry">
+        {{ if .Params.image }}<img src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" class="w-100 mb-3" alt="Post-Image">{{ end }}
+        <h1><a class="p-name u-url" href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <div class="post-meta mb-5">
+          <time class="dt-published">{{ .Date.Format .Site.Params.dateFormat }}</time>
         </div>
+        <div class="e-content">
+          {{ .Content }}
+        </div>
+      </article>
     </div>
+  </div>
 </main>
 
 {{ partial "footer.html" . }}

@@ -38,9 +38,9 @@ body > main {
 }
 
 p {
+  color: var(--gray-30);
   font-family: 'Titillium Web', sans-serif;
-  color: #9a9a9a;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 h1,
@@ -1594,7 +1594,7 @@ img {
 
 .post-item .post-meta {
   font-size: 14px;
-  color: #888;
+  color: var(--gray-50);
 }
 
 .post-item .post-meta a {
@@ -1648,8 +1648,12 @@ img {
   padding: 20px;
 }
 
-.blog-single h2 > a {
+.blog-single h1 > a {
   color: inherit;
+}
+
+.blog-single .post-meta {
+  color: var(--gray-50);
 }
 
 .blog-subtitle {
