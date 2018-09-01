@@ -4,10 +4,10 @@
 
 {{ partial "navigation.html" . }}
 
-<article class="blog-single section">
+<main class="blog-single section">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 mx-auto h-entry">
+            <article class="col-md-8 mx-auto h-entry">
                 {{ if .Params.image }}<img src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" class="w-100 mb-3" alt="Post-Image">{{ end }}
                 <h2><a class="p-name u-url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
                 <div class="post-meta mb-5">
@@ -21,9 +21,9 @@
                 <div class="e-content">
                   {{ .Content }}
                 </div>
-            </div>
+            </article>
         </div>
     </div>
-</article>
+</main>
 
 {{ partial "footer.html" . }}

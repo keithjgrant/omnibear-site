@@ -7,7 +7,7 @@
 {{ partial "page-title.html" . }}
 
 {{ "<!-- Blog Section Start -->" | safeHTML }}
-<article class="blog section" id="blog">
+<main class="blog section" id="blog">
     <div class="container">
         <div class="row">
             {{ range (.Paginator 6).Pages }}
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-</article>
+</main>
 {{ "<!-- Blog Section End -->" | safeHTML }}
 
 {{ partial "footer.html" . }}

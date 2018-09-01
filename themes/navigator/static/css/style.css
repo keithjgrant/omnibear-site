@@ -25,9 +25,16 @@
 }
 
 body {
-  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+}
+
+body > main {
+  flex-grow: 1;
 }
 
 p {
