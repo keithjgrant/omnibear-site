@@ -23,3 +23,18 @@ Content to include:
 - Advanced
   - installing directly from repository
   - Logs, debugging, troubleshooting
+
+/getting-started
+  /authentication
+  /micropub
+  /site-types
+/help
+  /faq
+/features
+  /posting
+  /right-click
+  /social-media
+  /settings
+/advanced
+  /installing-from-repository
+  /troubleshooting
