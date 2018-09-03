@@ -28,13 +28,13 @@ Content to include:
   /authentication
   /micropub
   /site-types
+  /installing-from-repository
 /help
+  /troubleshooting
   /faq
 /features
   /posting
   /right-click
   /social-media
   /settings
-/advanced
-  /installing-from-repository
-  /troubleshooting
+/releases

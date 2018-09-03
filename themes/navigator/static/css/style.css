@@ -113,6 +113,7 @@ img {
   letter-spacing: 1px;
   padding: 10px 40px;
   text-transform: uppercase;
+  text-decoration: none;
   border: 1px solid transparent;
   border-radius: 2px;
 }
@@ -1587,11 +1588,12 @@ img {
 }
 
 .post-item .post-title h3 {
-  font-size: 23px;
+  font-size: 1.45rem;
 }
 
 .post-item .post-title h3 a {
   color: #000;
+  text-decoration: none;
 }
 
 .post-item .post-meta {

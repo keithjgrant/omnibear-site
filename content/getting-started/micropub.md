@@ -18,9 +18,9 @@ To enable micropub on your site, you need a _micropub server_. Depending on whic
 
 ### Wordpress
 
-To get started with Wordpress, you will need to install the [IndieWeb plugin](https://wordpress.org/plugins/indieweb/). This provides a number of IndieWeb features, including [web sign-in](authentication) and micropub support.
+To get started with Wordpress, you will need to install the [micropub plugin](https://wordpress.org/plugins/micropub/). This will add a micropub server to your WordPress site. For more details, see plugin’s documentation.
 
-For more details, see documentation of the [micropub plugin](https://wordpress.org/plugins/micropub/) that is included in this package.
+__Note__: You will also need to install the IndieAuth plugin for [authentication](authentication). Alternately, you can use the [IndieWeb package](https://wordpress.org/plugins/indieweb/); this is an installer for several IndieWeb plugins, including both micropub and IndieAuth.
 
 ### Jekyll or Hugo
 
@@ -34,11 +34,11 @@ Once you have the server set up, you will need to add a `link` tag to your site 
 
 ### Other options
 
-If none of these suit your needs, there are several other micropub servers available. See [this list](https://indieweb.org/Micropub/Servers) for a set of options.
+If none of these suit your needs, there are several other micropub servers available. See [this list](https://indieweb.org/Micropub/Servers) for more options.
 
 ## How it works
 
-When you login to Omnibear, it loads your website homepage, and looks for a `<link rel="micropub">` tag in the page `<head>`. This link tag should include an `href` attribute matching your micropub server URL. For example:
+When you login to Omnibear, it fetches your website homepage, and looks for a `<link rel="micropub">` tag in the page `<head>`. This link tag should include an `href` attribute matching your micropub server URL. For example:
 
 ```html
 <link rel="micropub" href="https://example.com/micropub">
