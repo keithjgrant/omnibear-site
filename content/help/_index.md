@@ -7,7 +7,7 @@ It takes a lot of moving parts to get an IndieWeb site working. Omnibear offers 
 
 ## Try another micropub client
 
-If you’re having trouble logging in or posting, the first thing to do is to determine whether the problem is with Omnibear or with your [micropub server](/getting-started/micropub). Test out a different micropub client, such as [Quill](https://quill.p3k.io/). If you have the same problem there, the issue is
+If you’re having trouble logging in or posting, the first thing to do is to determine whether the problem is with Omnibear or with your [micropub server](/getting-started/micropub). Test out a different micropub client, such as [Quill](https://quill.p3k.io/). If you have the same problem there, the issue is most likely something with your website configuration. If the other client works, the problem is with Omnibear.
 
 ## Enable logging
 
