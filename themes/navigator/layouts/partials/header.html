@@ -36,6 +36,24 @@
 <link rel="mask-icon" href="/logo.svg" color="#fbc551">
 <meta name="theme-color" content="#fbc551">
 
+<meta name="twitter:card" content="summary">
+{{ if .Params.image }}
+<meta name="twitter:image" content="https://omnibear.com{{ .Params.image.url }}">
+{{ else }}
+<meta name="twitter:image" content="https://omnibear.com/logo.svg">
+{{ end }}
+{{- if eq .URL "/" -}}
+<meta name="og:title" content="Omnibear">
+<meta name="twitter:description" content="A micropub browser extension">
+{{- else -}}
+<meta name="og:title" content="{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ substr (plainify .Summary) 0 200 }}">
+{{- end -}}
+<meta name="twitter:widgets:theme" content="light">
+<meta name="twitter:widgets:link-color" content="#fbc551">
+<meta name="twitter:widgets:border-color" content="#fbc551">
+
+
 </head>
 
 <body id="body">
