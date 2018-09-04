@@ -20,15 +20,15 @@ To enable micropub on your site, you need a _micropub server_. Depending on whic
 
 To get started with Wordpress, you will need to install the [micropub plugin](https://wordpress.org/plugins/micropub/). This will add a micropub server to your WordPress site. For more details, see plugin’s documentation.
 
-__Note__: You will also need to install the IndieAuth plugin for [authentication](authentication). Alternately, you can use the [IndieWeb package](https://wordpress.org/plugins/indieweb/); this is an installer for several IndieWeb plugins, including both micropub and IndieAuth.
+**Note**: You will also need to install the IndieAuth plugin for [authentication](authentication). Alternately, you can use the [IndieWeb package](https://wordpress.org/plugins/indieweb/); this is an installer for several IndieWeb plugins, including both micropub and IndieAuth.
 
 ### Jekyll or Hugo
 
-If you use a static site generator such as [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), or [Eleventy](https://www.11ty.io/), you will have to setup your own micropub server to add new posts to your site repository. Thankfully, there are a few apps available to do this for you, but they will require a little configuration.
+If you use a static site generator such as [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), or [Eleventy](https://www.11ty.io/), you will have to setup your own micropub server to add new posts to your site repository. Thankfully, there are a few servers available to do this for you, but they will require a little configuration.
 
 I recommend [webpage-micropub-to-github](https://github.com/voxpelli/webpage-micropub-to-github), an app that can be deployed to Heroku with a single click and then configured from the Heroku dashboard. This has been verified to work with both Jekyll and Hugo. See the documentation for further details on configuration.
 
-[Nanopub](https://github.com/dg01d/nanopub) is another similar app you could use instead.
+[Nanopub](https://github.com/dg01d/nanopub) is another similar server you could use instead.
 
 Once you have the server set up, you will need to add a `link` tag to your site indicating where your micropub server can be found ([see below](#how-it-works)).
 
