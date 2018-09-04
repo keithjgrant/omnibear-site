@@ -14,6 +14,7 @@
   --blue-15: hsl(211, 23%, 16%);
   --blue-10: hsl(211, 40%, 10%);
 
+  --gray-95: hsl(198, 40%, 95%);
   --gray-90: hsl(198, 20%, 90%);
   --gray-80: hsl(198, 18%, 80%);
   --gray-60: hsl(198, 15%, 60%);
@@ -97,6 +98,13 @@ a:hover {
 
 img {
   max-width: 100%;
+}
+
+pre > code {
+  display: block;
+  background-color: var(--gray-95);
+  padding: 0.5em 1em;
+  overflow: auto;
 }
 
 .btn-main,
