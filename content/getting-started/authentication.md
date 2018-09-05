@@ -20,7 +20,7 @@ In your website’s `<head>` tag, add the following two `link` tags:
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
 ```
 
-The first one indicates you wish to use indieauth.com as your login service. The second tells Omnibear where it can fetch your authentication token when you log in. It will then use this token when [posting](micropub).
+The first one indicates you wish to use indieauth.com as your login service. The second tells Omnibear where it can fetch your authentication token when you log in. It will then use this token when [posting](/getting-started/micropub).
 
 ### 2. Add links to your social profiles on your homepage
 
