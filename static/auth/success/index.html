@@ -5,6 +5,7 @@
   <style>
     :root {
       --blue-60: hsl(211, 50%, 60%);
+      --red: hsl(0, 50%, 45%);
     }
 
     body {
@@ -21,7 +22,7 @@
     }
 
     .main {
-      align-self: center;
+      margin-top: 30vh;
     }
     .main > h1 {
       font-weight: bold;
@@ -66,6 +67,12 @@
       border-radius: 50%;
       animation: spin 1s linear infinite;
     }
+    .status-list > li.is-error {
+      color: var(--red);
+    }
+    .status-list > li.is-error::after {
+      display: none;
+    }
 
     @keyframes spin {
       0% {
@@ -96,7 +103,7 @@
 </head>
 <body>
   <div class="main x-h-app">
-    <h1><img src="/logo.svg" class="u-logo p-name" alt="Omnibear" height="70"><span id="status-heading">Authentication successful</span></h1>
+    <h1><img src="/logo.svg" class="u-logo p-name" alt="Omnibear" height="70"><span id="status-heading">Finishing authentication</span></h1>
     <p class="text-center" id="status-paragraph">Retrieving access token...</p>
     <ul class="status-list" id="status-list"></ul>
   </div>
