@@ -1,14 +1,18 @@
 <!doctype>
 <head>
-  <title>Omnibear</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Jaldi:700">
+  <title>Omnibear Login</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jaldi:700|Noto+Serif">
   <style>
+    :root {
+      --blue-60: hsl(211, 50%, 60%);
+    }
+
     body {
       display: grid;
-      grid-template-rows: auto 3em;
+      grid-template-rows: 1fr auto;
       min-height: 100vh;
       margin: 0;
-      font-family: Lato, sans-serif;
+      font-family: Noto Serif, serif;
       color: hsl(200, 15%, 20%);
     }
 
@@ -36,6 +40,49 @@
     .text-center {
       text-align: center !important;
     }
+
+    .status-list {
+      margin: 0 auto;
+      max-width: 17em;
+      padding-left: 0;
+      list-style: none;
+    }
+    .status-list > li {
+      position: relative;
+      padding-left: 1.5rem;
+    }
+    .status-list > li:last-child::after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      height: 0.8em;
+      width: 0.8em;
+      border: 3px transparent solid;
+      border-top-color: hsl(41, 75%, 49%);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0turn);
+      }
+      100% {
+        transform: rotate(1turn);
+      }
+    }
+
+    .footer-bottom {
+      text-align: right;
+      padding: 1rem;
+    }
+
+    .footer-bottom a {
+      color: var(--blue-60);
+    }
+
+
   </style>
   <link rel="apple-touch-icon" sizes="180x180" href="/logo.svg">
   <link rel="icon" type="image/png" href="/logo.svg" sizes="32x32">
@@ -48,6 +95,7 @@
   <div class="main x-h-app">
     <h1><img src="/logo.svg" class="u-logo p-name" alt="Omnibear" height="70"><span id="status-heading">Authentication successful</span></h1>
     <p class="text-center" id="status-paragraph">Retrieving access token...</p>
+    <ul class="status-list" id="status-list"></ul>
   </div>
-  <footer><a href="http://keithjgrant.com">keithjgrant.com</a></footer>
+  <footer class="footer-bottom"><a href="/help">Help</a></footer>
 </body>
