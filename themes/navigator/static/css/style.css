@@ -63,13 +63,6 @@ h6 {
   display: inline-block;
 }
 
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 figure {
   margin: 0;
 }
